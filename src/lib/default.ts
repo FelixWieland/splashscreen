@@ -2,6 +2,6 @@ import { SplashscreenProps } from './types'
 
 export const defaultSplashscreenProps: SplashscreenProps = {
     active: true,
-    logo: null,
+    logo: undefined,
     color: "default",
 }
