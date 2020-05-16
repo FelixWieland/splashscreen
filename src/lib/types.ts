@@ -1,6 +1,6 @@
 import { IBaseAnimation, ILogoAnimation } from './animation'
 
-export interface SplashscreenProps {
+export interface SplashscreenProps{
     active: boolean
     logo?: JSX.Element
     color?: Color,
