@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
+    - name: install deps
+      run: npm install
     - name: test
       run: npm run test -- --watchAll=false
     - name: build

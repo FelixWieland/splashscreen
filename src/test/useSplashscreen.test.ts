@@ -14,7 +14,7 @@ describe("#useSplashscreen", () => {
         
         await waitForNextUpdate()
         
-        expect(result.current.active).toBe(true)
+        expect(result.current.active).toBe(false)
         expect(result.current.done).toBe(1)
     })
     it("should use the provided array as a effect", async () => {
@@ -22,7 +22,7 @@ describe("#useSplashscreen", () => {
         
         await waitForNextUpdate()
         
-        expect(result.current.active).toBe(true)
+        expect(result.current.active).toBe(false)
         expect(result.current.done).toBe(effectFnArr.length)
     })
 })
