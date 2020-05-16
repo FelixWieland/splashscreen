@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState, useLayoutEffect } from "react";
 import { makeStyles } from "@material-ui/core";
 import { SplashscreenProps, ISplashscreen } from "../types";

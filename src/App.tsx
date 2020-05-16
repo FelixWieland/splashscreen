@@ -16,7 +16,7 @@ function delay(t: number, v=null as any) {
 
 export function App() {
     const [data, setData] = useState(null) as any
-    const { active, done } = useSplashscreen(async () => {
+    const { active } = useSplashscreen(async () => {
         const json = await delay(3000).then(async () => await fetch('https://jsonplaceholder.typicode.com/todos/2').then(response => response.json()))
         setData(json)
     })
